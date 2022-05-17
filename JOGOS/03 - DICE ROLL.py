@@ -63,8 +63,8 @@ while True:
     print('=-' * 20)
     print(f'SEU SALDO É DE : {deposito}')
     if deposito == 0:
-        print('VOCÊ ZEROU SEU SALDO. ', end='')
-        r2= str(input('QUER ADICIONAR MAIS SALDO ?[S/N]')).upper()
+        print('VOCÊ ZEROU SEU SALDO.', end='')
+        r2= str(input('QUER ADIONAR MAIS SALDO ?[S/N]')).upper()
         if r2 == 'S':
             deposito = float(input('DIGITE SUA NOVA BANCA:'))
 
@@ -73,6 +73,8 @@ while True:
             break
 
     r = str(input('QUER CONTINUAR [S/N]:')).upper()
+    sort1 = sort2 = randint(1, 6)
+    resultado = sort1 + sort2
    elif r == 'N':
        print('OBRIGADO POR APOSTAR!')
        break
