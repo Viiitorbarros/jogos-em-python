@@ -1,6 +1,6 @@
 from random import randint
 import time
-import emoji
+
 print('===========PEDRA PAPEL E TESOURA===========')
 
 print('[1] PEDRA \u26F0')
