@@ -1,2 +1,2 @@
-# JOGOS EM PYTHON
+# Jogos_Em_Python
  JOGUINHOS EM PYTHON
